@@ -60,7 +60,40 @@
 
     <!-- Main Content -->
     <main class="container mb-5">
-        <! -- PAGE CONTENT GOES HERE -->
+        <h2 class="mb-4">Add a Book</h2>
+
+        <form id="addBookForm">
+
+            <div class="mb-3">
+                <label class="form-label">Book Title</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Author</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Status</label>
+                <select class="form-select" required>
+                    <option value="read">Read</option>
+                    <option value="unread">Unread</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Cover Image</label>
+                <input type="file" id="imageInput" class="form-control" accept=".png, .jpg, .jpeg" required>
+            </div>
+
+            <div class="mb-3">
+                <img id="previewImage" class="img-fluid d-none rounded shadow-sm"
+            </div>
+
+            <button class="btn btn-primary">Submit</button>
+        
+        </form>
     </main>
 
     <!-- Footer -->
