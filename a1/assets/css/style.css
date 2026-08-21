@@ -1,4 +1,5 @@
 body {
+    background-color: #7b5aa6;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,4 +14,13 @@ body {
 
 #previewImage {
     max-width: 200px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.2 ease-in-out;
+}
+ 
+.nav-link {
+    font-weight: 500;
 }
