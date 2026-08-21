@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.gallery-img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+#previewImage {
+    max-width: 200px;
+}
